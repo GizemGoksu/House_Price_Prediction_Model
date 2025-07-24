@@ -20,28 +20,28 @@ Dataset Source: [https://www.kaggle.com/datasets/prevek18/ames-housing-dataset]
 
 The dataset contains several features related to housing, such as:
 
-YearBuilt: Year the house was built
+- YearBuilt: Year the house was built
 
-LotArea: Lot size in square feet
+- LotArea: Lot size in square feet
 
-Neighborhood: Physical location within the city
+- Neighborhood: Physical location within the city
 
-OverallQual: Overall material and finish quality
+- OverallQual: Overall material and finish quality
 
-GrLivArea: Above ground living area (sq ft)
+- GrLivArea: Above ground living area (sq ft)
 
 ... and many more
 
 🧹 Data Preprocessing
 
 
-Handled missing values using median imputation.
+- Handled missing values using median imputation.
 
-Converted categorical features to numerical using label encoding and one-hot encoding.
+- Converted categorical features to numerical using label encoding and one-hot encoding.
 
-Applied feature selection based on feature importances from Random Forest.
+- Applied feature selection based on feature importances from Random Forest.
 
-Standardized evaluation using RMSLE to reduce sensitivity to large values.
+- Standardized evaluation using RMSLE to reduce sensitivity to large values.
 
 🤖 Models
 
